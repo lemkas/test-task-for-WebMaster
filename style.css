@@ -5,12 +5,14 @@ body {
 }
 
 .container {
-  width: 1170px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .card {
-  max-width: 200px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -20,11 +22,11 @@ body {
 
 .card-img {
   width: auto;
-  height: 100%;
+  height: 80%;
 }
 
-.card-content {
-}
+/* .card-content {
+} */
 
 .card-price {
   font-weight: bold;
