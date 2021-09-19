@@ -41,3 +41,47 @@ body {
   color: white;
   font-weight: bold;
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 20;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  border-color: #fefefe;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.close {
+  color: #aaa;
+
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-form input {
+  width: 400px;
+
+  margin-bottom: 20px;
+}
